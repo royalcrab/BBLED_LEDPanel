@@ -3,16 +3,16 @@
 # 
 # Created by BBLED : https://bbled.org/
 # Powered by mplusplus Co.Ltd : http://www.mplpl.com
-# github: https://github.com/royalcrab/kicad-ledpanel
+# github: https://github.com/royalcrab/BBLED_LEDPanel
 
 import pcbnew
 import re
 
-# name    : "SK6812MINI", "C0603", "etc"
+# name    : "SK6812MINI", "C0603", "0.1uF", "etc"
 # x       : length of the column
 # y       : length of the raw
 # pitch_mm: pitch between each pair of parts
-# dir     : 0/2 virtical, 1/3 horizontal, 2,3 reverse in odd raws or columns
+# dir     : 0/2 virtical, 1/3 horizontal, 2,3 reverse in even raws or columns
 # ox      : offset x
 # oy      : offset y
 # visible : visibility of reference silk
